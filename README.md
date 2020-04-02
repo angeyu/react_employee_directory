@@ -12,3 +12,6 @@ SOURCES:
 layout: https://codepen.io/AllThingsSmitty/pen/jALALm
 
 data: https://randomuser.me/api/?results=200&nat=us
+
+
+the sort/search functions are not there

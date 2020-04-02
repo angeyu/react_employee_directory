@@ -2,9 +2,14 @@ import React from "react";
 import './content.css';
 import getEmployee from '../utils/API'
 
+
 function Content(props) { console.log(getEmployee.results)
+
   return (
-   
+    <>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by last name"></input>
+    <button>Sort by first name A-Z</button>
+
     <table className= "col-8">
       <thead>
         <tr>
@@ -26,6 +31,7 @@ function Content(props) { console.log(getEmployee.results)
         ))}
       </tbody>
     </table>
+    </>
   );
 }
 
